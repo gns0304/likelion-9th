@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    /*nav fixed로 인한 공백*/
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+header{
+    width:100%;
+    padding:15px;
+    background: #000000;
+    color:white;
+    text-align: center;
+    position:sticky;
+    top:0;
+}
+nav{
+    background:#1c641c;
+    height:50px;
+    width:100%;
+    padding: 15px;
+}
+ul{
+    list-style:none;
+    float:right; 
+}
+ul>li{
+    float:left; 
+    margin:0px 5px;
+}
+
+
+article{
+    width:100%;
+}
+section{
+    width:100%;
+    padding:15px;
+}
+section:nth-child(1){
+    background: #973618;
+    height:500px;
+}
+section:nth-child(2){
+    background:orange;
+    height:500px;
+}
+section input{
+    display: block; 
+    border:0px;
+    padding:20px;
+    border-radius: 3px;
+    margin-top:5px;
+}
+footer{
+    background-color: #829967;
+    width:100%;
+    padding:15px;
+}
